@@ -1,0 +1,13 @@
+{
+  "gitbook": "2.5.2",
+  "structure": {
+    "summary": "/docs/SUMMARY.md"
+  },
+  "plugins": ["prism", "disqus", "-highlight"],
+  "pluginsConfig": {
+    "disqus": {
+        "shortName": "shamsher31"
+    }
+  }
+
+}
