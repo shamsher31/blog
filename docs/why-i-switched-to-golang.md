@@ -21,3 +21,12 @@ func main() {
   fmt.Println("Hello World")
 }
 ```
+
+But `Hello World` does not add any value to your product or website. *So why I choose golang ?* Well following are the list which suits what I want to achieve with golang.
+
+* The most important feature that I like about golang is [cross compilation](https://github.com/mitchellh/gox) for multiple platform including Linux, Mac, Windows and many more. Add some sugar on top of it and you can easily [upload all your binaries to github](https://github.com/tcnksm/ghr).
+* You can [compile and run go programes faster](https://www.youtube.com/watch?v=FTl0tl9BGdc) then some interpreter can even start.
+* Statically linked single binary so deployement is faster and easy.
+* Golang takes [less system resources](http://www.iron.io/how-we-went-from-30-servers-to-2-go/) which saves lot of your valuable money so you can buy things that your family needs.
+
+Lot of companies around the world [succeeded with golang](https://github.com/golang/go/wiki/SuccessStories). If you really intrested to see what you can do with golang you can checkout my [next blog post](./what-you-can-do-with-golang.md).
