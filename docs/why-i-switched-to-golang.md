@@ -8,6 +8,9 @@ It will become very difficult to maintain large codebase and difficult to unders
 
 Based on my past experince with [PHP](http://php.net/) and [NodeJs](https://nodejs.org/en/), I found it difficult to maintain and debug code specially when the product is used in a production. If you want to fix small bug or add some feature like changing button color from blue to white. The deployement which includes fetching module dependency, running unit test and end-to-end test takes hell lot of time to build and deploy new changes to production. Which will be pain for both the developers and customers to quickly get the new and updated feature.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Prediction: Go will become the dominant language for systems work in IaaS, Orchestration, and PaaS in 24 months. <a href="https://twitter.com/hashtag/golang?src=hash">#golang</a></p>&mdash; Derek Collison (@derekcollison) <a href="https://twitter.com/derekcollison/status/245522124666716160">September 11, 2012</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 In the war of new [programming languages](https://en.wikipedia.org/wiki/List_of_programming_languages) Google released [Golang or Go](https://golang.org/) which say's *Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.*
 
 First thing that came to my mind is write a `Hello World` program which will tell me how expressive and concise a language is.
