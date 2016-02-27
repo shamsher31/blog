@@ -1,7 +1,7 @@
 # What you can do with Golang
 > Posted on Feb 26, 2016 by Shamsher
 
-If you have decided to give golang a try and you are reading this blog post then you probably come to the right place. Investing time to learn any programming language is crucial because you already have hectic 9 to 5 job and you rarely get time to spend with your fmaliy. If you really care about your precise time and you ask yourself a question *What I can do with Golang so I get best out of it ?* Following are the list of things you can achieve.
+If you have decided to give golang a try and you are reading this blog post then you probably came to the right place. Investing time to learn any programming language is rewarding and fun. But it takes time. You already have hectic 9 to 5 job and you rarely get time to spend with your fmaliy. If you really care about your precise time and you ask yourself a question *What I can do with Golang so I get best out of it ?* Well following are the list of things that you can achieve once you have decided to invest your time to learn golang.
 
 #### Golang for Mobile app development
 
