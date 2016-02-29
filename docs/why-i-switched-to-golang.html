@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Why I switched to Golang | </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.5.2">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-prism/prism.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-disqus/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+        <link rel="stylesheet" href="../docs/styles/website.css">
+    
+
+        
+    
+    
+    <link rel="next" href="../docs/what-you-can-do-with-golang.html" />
+    
+    
+    <link rel="prev" href="../index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="1" data-chapter-title="Why I switched to Golang" data-filepath="docs/why-i-switched-to-golang.md" data-basepath=".." data-revision="Mon Feb 29 2016 12:27:42 GMT+0530 (IST)">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1" data-path="docs/why-i-switched-to-golang.html">
+            
+                
+                    <a href="../docs/why-i-switched-to-golang.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Why I switched to Golang
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="docs/what-you-can-do-with-golang.html">
+            
+                
+                    <a href="../docs/what-you-can-do-with-golang.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        What you can do with Golang
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" ></a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="why-i-switched-to-golang">Why I switched to Golang</h1>
+<blockquote>
+<p>Posted on Feb 24, 2016 by Shamsher</p>
+</blockquote>
+<p>We live in the world where <a href="https://en.wikipedia.org/wiki/List_of_programming_languages" target="_blank">programming languages are born everyday</a>. Each programming language solves a specific problem. We can use the power of the language to build truley amazing things that people care about. <a href="http://blog.teamtreehouse.com/choose-programming-language" target="_blank">Choosing language</a> to build something you care about, depends on several different factors.</p>
+<p>I always wanted to build software that are easy to write, easy to maintain and can be easily understood by others. In the beginning this looks fantastic when you are writing small software but what about large projects with distributed team and huge codebase.
+It will become very difficult to maintain large codebase and difficult to understand for developer who recently join the team.</p>
+<p>Based on my past experince with <a href="http://php.net/" target="_blank">PHP</a> and <a href="https://nodejs.org/en/" target="_blank">NodeJs</a>, I found it difficult to maintain and debug code specially when the product is used in a production. If you want to fix small bug or add some feature like changing button color from blue to white. The deployement which includes fetching module dependency, running unit test and end-to-end test takes hell lot of time to build and deploy new changes to production. Which will be pain for both the developers and customers to quickly get the new and updated feature.</p>
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Prediction: Go will become the dominant language for systems work in IaaS, Orchestration, and PaaS in 24 months. <a href="https://twitter.com/hashtag/golang?src=hash" target="_blank">#golang</a></p>&#x2014; Derek Collison (@derekcollison) <a href="https://twitter.com/derekcollison/status/245522124666716160" target="_blank">September 11, 2012</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>In the war of new <a href="https://en.wikipedia.org/wiki/List_of_programming_languages" target="_blank">programming languages</a> Google released <a href="https://golang.org/" target="_blank">Golang or Go</a> which say&apos;s <em>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</em></p>
+<p>First thing that came to my mind is write a <code>Hello World</code> program which will tell me how expressive and concise a language is.</p>
+<pre><code class="lang-go"><span class="token keyword">package</span> main
+<span class="token keyword">import</span> <span class="token operator">(</span>
+  <span class="token string">&quot;fmt&quot;</span>
+<span class="token operator">)</span>
+<span class="token keyword">func</span> <span class="token function">main<span class="token punctuation">(</span></span><span class="token operator">)</span> <span class="token operator">{</span> 
+  fmt<span class="token operator">.</span><span class="token function">Println<span class="token punctuation">(</span></span><span class="token string">&quot;Hello World&quot;</span><span class="token operator">)</span>
+<span class="token operator">}</span>
+</code></pre>
+<p>But <code>Hello World</code> does not add any value to your product or website. <em>So why I choose golang ?</em> Well following are the list which suits what I want to achieve with golang.</p>
+<ul>
+<li>The most important feature that I like about golang is <a href="https://github.com/mitchellh/gox" target="_blank">cross compilation</a> for multiple platform including Linux, Mac, Windows and many more. Add some sugar on top of it and you can easily <a href="https://github.com/tcnksm/ghr" target="_blank">upload all your binaries to github</a>.</li>
+<li>You can <a href="https://www.youtube.com/watch?v=FTl0tl9BGdc" target="_blank">compile and run go programes faster</a> then some interpreter can even start.</li>
+<li>Statically linked single binary so deployement is faster and easy.</li>
+<li>Golang takes <a href="http://www.iron.io/how-we-went-from-30-servers-to-2-go/" target="_blank">less system resources</a> which saves lot of your valuable money so you can buy things that your family needs.</li>
+</ul>
+<p>Lot of companies around the world <a href="https://github.com/golang/go/wiki/SuccessStories" target="_blank">succeeded with golang</a>. If you really intrested to see what you can do with golang you can checkout my <a href="what-you-can-do-with-golang.html">next blog post</a>.</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../index.html" class="navigation navigation-prev " aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../docs/what-you-can-do-with-golang.html" class="navigation navigation-next " aria-label="Next page: What you can do with Golang"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-disqus/plugin.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"disqus":{"shortName":"shamsher31","useIdentifier":false},"prism":{},"search":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
